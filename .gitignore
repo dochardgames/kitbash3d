@@ -1,0 +1,15 @@
+# d:\Assets\Unreal Assets\fab-key-management\kitbash3d\.gitignore
+# Keep secrets and large/generated artifacts out of version control.
+
+# Credentials
+.env
+
+# Downloaded kit zips and saved payloads
+downloads/
+
+# Parsed output
+my_kits.json
+
+# Python
+__pycache__/
+*.pyc
